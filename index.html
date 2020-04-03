@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-commerce</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\lenovo\Desktop\E-commerce_Site\Style_sheet.css">
+    <link rel="icon" type="image/png" href="https://www.dynamicmarketing.eu/wp-content/uploads/2018/06/ecommerce.logo_.png"></head>
+    <meta name="view port" content="width = divice-width , initial-scale=1">
+<body>
+	<style type="text/css">
+		nav.Nav_menu{
+	background-color: #456C82;
+	color: #231D1D;
+	text-align: center;
+	text-shadow: 1px;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+p.Title{
+    padding-top: 10px;
+	padding-bottom: 10px;}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #BBD2DF;
+}
+div.Inscription{
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+input[type=button] {
+  background-color: #437090;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #344F6E;
+}
+input[type=button]:hover{
+	background-color: #D2DEEA;
+	border-radius: 5px;
+	margin: 10px 10px;
+	color: #437090;
+}
+input[type=text] {
+    border: 1px solid #344F6E;
+    border-radius: 5px; 
+    background-color: #437090;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px 10px;
+}
+input[type=text]:focus {
+      border: 2px solid #344F6E;
+      background-color: #5279A4; 
+
+}
+input[type=password] {
+    border: 1px solid #344F6E;
+    border-radius: 5px; 
+    background-color: #437090;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    text-align: center;
+}
+input[type=password]:focus {
+      border: 2px solid #344F6E;
+      background-color: #5279A4; 
+}
+input[type=Recherche] {
+    width: 150px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    background-image: url('https://cdn.bitdegree.org/learn/search-icon.png?229dfb2d');
+    background-size: 10px;
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-color: #5279A4;
+    border: 1px solid #344F6E;
+    color: #C5D2D9;
+    border-radius: 5px;
+
+}
+
+input[type=Recherche]:focus {
+    width: 30%;
+    border-radius: 5px;
+}
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #3F576F;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #1D3042;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #3F576F;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #496D90;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #496D90;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+row{
+	width: 100%;
+}
+@media (min-width: 992px){
+	.col-lg-1,.col-lg-2,.col-lg-3 ,.col-lg-4 ,.col-lg-5 ,.col-lg-6 ,.col-lg-7 ,.col-lg-8 ,.col-lg-9 ,.col-lg-10 ,.col-lg-11 ,.col-lg-12{
+		float: left;
+	}
+	.col-lg-1{
+		width:8.33%;
+	}
+	.col-lg-2{
+		width:16.66%;
+	}
+	.col-lg-3{
+		width:25%;
+	}
+	.col-lg-4{
+		width:33.33%;
+	}
+	.col-lg-5{
+		width:41.66;
+	}
+	.col-lg-6{
+		width:50%;
+	}
+	.col-lg-7{
+		width:58.33%;
+	}
+	.col-lg-8{
+		width:66.66%;
+	}
+	.col-lg-9{
+		width:74.99%;
+	}
+	.col-lg-10{
+		width:83.33%;
+	}
+	.col-lg-11{
+		width:91.66%;
+	}
+	.col-lg-12{
+		width:100%;
+	}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-1,.col-md-2,.col-md-3 ,.col-md-4 ,.col-md-5 ,.col-md-6 ,.col-md-7 ,.col-md-8 ,.col-md-9 ,.col-md-10 ,.col-md-11 ,.col-md-12{
+		float: left;
+	}
+	.col-md-1{
+		width:8.33%;
+	}
+	.col-md-2{
+		width:16.66%;
+	}
+	.col-md-3{
+		width:25%;
+	}
+	.col-md-4{
+		width:33.33%;
+	}
+	.col-md-5{
+		width:41.66;
+	}
+	.col-md-6{
+		width:50%;
+	}
+	.col-md-7{
+		width:58.33%;
+	}
+	.col-md-8{
+		width:66.66%;
+	}
+	.col-md-9{
+		width:74.99%;
+	}
+	.col-md-10{
+		width:83.33%;
+	}
+	.col-md-11{
+		width:91.66%;
+	}
+	.col-md-12{
+		width:100%;
+	}
+}
+#CHIKEN{
+	background-color: #437090;
+	border: 1px solid #344F6E;
+	width: 70%;
+	height: auto;
+    text-decoration: none;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:0px;
+	text-align: center;
+	color: #8397C6;
+	border-radius: 10px;
+}
+div.row div div {
+	border: 1px solid #344F6E;
+	background-color:#BBD2DF;
+	width: auto;
+	height: 200PX;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: Helvetica;
+	color: black;
+	border-radius: 10px;
+	</style>
+	<header>
+		<nav class="Nav_menu">
+			<div><p class="title"><h1>E-commerce</h1></p></div>
+			<div class="Inscription">
+				<span ><input type="text" name="Email" placeholder="Vous@example.com"></span>
+		        <span><input type="password" name="LastName" placeholder="Mot de passe"></span><br>
+		        <span><input type="Recherche" name="Recherche" placeholder="Recherche"></span>
+		        <span><input type="button" value="connectez" onclick="Data()"></span>
+		        <span><input type="button" value="Inscrez-vous" onclick="Data()"></span>
+			</div>
+		</nav>
+	</header>
+	<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Acceuil</a>
+  <a href="#news">Actualite</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Offre 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="row">
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Equipement<br>Sportif</b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Espace Cuisine</b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>PCs et Equipement Informatique</b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Nouvelle Collection Vetement<br>Homme, Femme et Bebe</b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Pour la culture et loisir<br>Collection de Livres </b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Sports, Classes Ou Chics<br>Choisie votre Voiture</b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Perfermant,Moderne Et Economic<br>Voila les derniers Smartphones</b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Equiper votre Maison Par<br>Nos Trucs de decoration</b></p><br></div></div>
+		<div class="col-lg-4 col-md-12"><div><p id="CHIKEN"><b>Les Bons Composants<br>Pour les Bons Projets</b></p><br></div></div>
+	</div>
+
+
+</body>
+</html>
